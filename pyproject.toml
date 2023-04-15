@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chatgpt-plugin"
+version = "0.0.2"
+description = ""
+authors = ["steven-mi <stevenmi@live.de>"]
+readme = "README.md"
+packages = [{ include = "chatgpt_plugin" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.4"
+pydantic = "^1.10.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

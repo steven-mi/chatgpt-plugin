@@ -1,0 +1,10 @@
+# Milo Chat Example
+
+## Testing out the chat
+
+In order to test out the chat, simply use the `plugin.py` script. You can call it like this:
+
+```bash
+python plugin.py "YOUR CHAT PROMPT
+```
+
